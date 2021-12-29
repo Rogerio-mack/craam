@@ -1,4 +1,4 @@
-# Propostas de Trabalho
+# Potenciais Propostas de Trabalho
 
 <img src="https://www.researchgate.net/profile/Jean-Pierre-Raulin/publication/224263574/figure/fig1/AS:302875856130048@1449222639469/Examples-of-VLF-propagation-paths-from-transmitters-triangles-NAA-NDK-NPM-and-NWC-to_W640.jpg" width=300, align="right"> 
 
