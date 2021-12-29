@@ -1,20 +1,17 @@
 # Propostas de Trabalho
 
-<img src="https://www.researchgate.net/profile/Jean-Pierre-Raulin/publication/224263574/figure/fig1/AS:302875856130048@1449222639469/Examples-of-VLF-propagation-paths-from-transmitters-triangles-NAA-NDK-NPM-and-NWC-to_W640.jpg" width=300, align="left"> 
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
-
-<br>
+<img src="https://www.researchgate.net/profile/Jean-Pierre-Raulin/publication/224263574/figure/fig1/AS:302875856130048@1449222639469/Examples-of-VLF-propagation-paths-from-transmitters-triangles-NAA-NDK-NPM-and-NWC-to_W640.jpg" width=300, align="right"> 
 
 ## 1. **Identificação de Explosões Solares a partir de sinais VLF com Redes Neurais Profundas**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
 
 *Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno 
 dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas para identificar explosões solares a partir de dados de VLF coletados na SAVNET [9].*
@@ -27,9 +24,13 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 
 * Empregar dados de fase, amplitude ou ambos?
 
+* Potenciais modelos de rede: LSTM, convolucionais, modelos para detecção de anomalia.
+
 * Relevância. Identificação em tempo real seria *i.* viável e *ii.* relevante neste caso?
 
-* Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
+* \*Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
+
+* \*Emprego de modelo multimodal com imagens?
 
 **Potenciais Referências**
 
@@ -51,4 +52,37 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 
 [9] Raulin, J.P., David, P., Hadano, R., Saraiva, A.C., Correia, E., & Kaufmann, P. (2009). The south America VLF NETwork (SAVNET): Development, installation status, first results. Geofisica Internacional, 48, 253-261.
 
+<br>
 
+<br>
+
+<img src="https://github.com/Rogerio-mack/craam/blob/main/figures/Lambek1980Nature.png?raw=true" width=300, align="right"> 
+
+## 2. **Um Comparativo da Predição do LOD (Lenght Of the Day) com Redes LSTM e outros Métodos**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+*Uma série de fatores influenciam a duração do dia (LOD) ou o tempo de rotação da terra como desde os fluidos dentro do planeta, a redistribuição de massa e os movimentos que ocorrem na atmosfera e nos oceanos, como marés, glaciais e terremotos [1]. Variações nesse tempo são imperceptíveis na superfície da terra e para nosso dia-a-dia, mas causam mudanças nos parâmetros de orientação da Terra (EOP) podendo, assim, afetar de modo significativo medidas de geolocalização (GPS) [2]. Sua medida pode ser feita a partir de técnicas de interferometria de linha de base muito longa (VLBI), como um indicador dos erros nos parâmetros EOP [3], sendo de interesse a predição de seus valores para janelas da ordem de dias ou meses [2]. Diversos métodos regressivos e inteligência artificial têm sido empregados para a predição do LOD [2] [4] [5] e comparados [2]. Não há, entretanto, até o momento, um comparativo com a predição com modelos mais recentes de redes neurais profundas que podem incorporar o tempo (LSTM), recorrência ou convoluções e podem ser adequados para análise de dados complexos e multimodais.
+
+**Dúvidas e Pontos Relevantes**
+
+* *
+
+**Potenciais Referências**
+
+[1] Lambeck, K. (1980). Changes in length-of-day and atmospheric circulation. Nature, 286(5769), 104–105. doi:10.1038/286104a0.
+
+[2] Menezes G.O.,Raulin, J.P., Ramirez, R.F.H., Silva, L.A., Pamboukian, S.V.D., Merkowitz, S. (2022) Forecasting of Space Geodesy Data and Investigation of the Relationship with the Solar Activity. [*to appear*](https://github.com/Rogerio-mack/craam/blob/main/articles/article_Guilherme_projeto_Novo.pdf)
+
+[3] Malkin, Z. (2009). On comparison of the Earth orientation parameters obtained from different VLBI networks and observing programs. Journal of Geodesy, 83, 547-556.
+
+[4] Modiri, S., Belda, S., Hoseini, M., Heinkelmann, R., Ferrándiz, JM, & Schuh, H. (2020). Um novo método híbrido para melhorar a previsão de ultracurto prazo de LOD. Journal of Geodesy, 94
+
+[5] Liao, D., Wang, Q.J., Zhou, Y., Liao, X., & Huang, C. (2012). Long-term prediction of the Earth Orientation Parameters by the artificial neural network technique. Journal of Geodynamics, 62, 87-92.
