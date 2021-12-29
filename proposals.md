@@ -21,15 +21,15 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 
 **Dúvidas e Pontos Relevantes**
 
-> Dados. Modelo 1: Preditores [VLF SAVENET], Objetivo [Explosões Solares]; Modelo 2: Preditores[VLF de outras redes], Objetivo [Explosões Solares]; Modelo 3: Preditores [VLF + Dados como fase solar +/ou Período do Dia], Objetivo [Explosões Solares]
+* Dados. Modelo 1: Preditores [VLF SAVENET], Objetivo [Explosões Solares]; Modelo 2: Preditores[VLF de outras redes], Objetivo [Explosões Solares]; Modelo 3: Preditores [VLF + Dados como fase solar +/ou Período do Dia], Objetivo [Explosões Solares]
 
-> Alguma métrica das explosões solares, ou apenas identificar sua ocorrência?
+* Alguma métrica das explosões solares, ou apenas identificar sua ocorrência?
 
-> Empregar dados de fase, amplitude ou ambos?
+* Empregar dados de fase, amplitude ou ambos?
 
-> Relevância. Identificação em tempo real seria *i.* viável e *ii.* relevante neste caso?
+* Relevância. Identificação em tempo real seria *i.* viável e *ii.* relevante neste caso?
 
-> Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
+* Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
 
 **Potenciais Referências**
 
