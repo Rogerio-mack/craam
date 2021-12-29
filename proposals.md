@@ -32,7 +32,7 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 
 * \*Emprego de modelo multimodal com imagens?
 
-* \*Medidas do passado podem ter de ser corrigidas por uso corrente quando consideramos, por exemplo, variações no campo magnético da terra? [Pavón-Carrasco, F.J., Marsal, S., Campuzano, S.A., & Torta, J.M. (2021). Signs of a new geomagnetic jerk between 2019 and 2020 from Swarm and observatory data. Earth, Planets and Space, 73, 1-11.] 
+* \*Medidas do passado podem ter de ser corrigidas por uso corrente quando consideramos, por exemplo, variações no campo magnético da terra? [Pavón-Carrasco, F.J., Marsal, S., Campuzano, S.A., & Torta, J.M. (2021). Signs of a new geomagnetic jerk between 2019 and 2020 from Swarm and observatory data. Earth, Planets and Space, 73, 1-11.]. Isso teria algum valor? 
 
 **Potenciais Referências**
 
@@ -86,7 +86,7 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 
 * \*Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
 
-* \*Medidas do passado podem ter de ser corrigidas por uso corrente quando consideramos, por exemplo, variações no campo magnético da terra? [Pavón-Carrasco, F.J., Marsal, S., Campuzano, S.A., & Torta, J.M. (2021). Signs of a new geomagnetic jerk between 2019 and 2020 from Swarm and observatory data. Earth, Planets and Space, 73, 1-11.] 
+* \*Medidas do passado podem ter de ser corrigidas por uso corrente quando consideramos, por exemplo, variações no campo magnético da terra? [Pavón-Carrasco, F.J., Marsal, S., Campuzano, S.A., & Torta, J.M. (2021). Signs of a new geomagnetic jerk between 2019 and 2020 from Swarm and observatory data. Earth, Planets and Space, 73, 1-11.]. Isso teria algum valor? 
 
 **Potenciais Referências**
 
