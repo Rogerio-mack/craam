@@ -128,7 +128,7 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 medidas da rede AFINSA (The Atmospheric electric Field Network in South America) de sensores de moinho do campo elétrico (EFM) para obter curvas de variação diária do campo elétrico atmosférico de "tempo bom" e analisar desvios com relação a outros fenômenos como eventos solares (explosões solares e eventos de prótons) e decréscimos Forbush.
 Este estudo se propõe a explorar alguns caminhos apontados nessas análises precedentes podendo ser divididos em 3 frentes de trabalho: 
 
-> 1. Analisar outras técnicas de seleção de "tempo bom" e ciclos nas curvas de tempo bom. Particularmente verifica o uso de técnicas de detecção de anomalias fornecendo um método mais automático de tratamento dos dados e técnicas de análise de série temporiais. Aqui poderiam ser utilizados dados da AFINSA, mas também dados da rede GLOCAEM.
+> 1. Analisar outras técnicas de seleção de "tempo bom" e ciclos nas curvas de tempo bom. Particularmente verifica o uso de técnicas de detecção de anomalias fornecendo um método mais automático de tratamento dos dados e técnicas de análise de série temporiais. Aqui poderiam ser utilizados dados da AFINSA, mas também dados da rede GLOCAEM (https://glocaem.wordpress.com/).
 
 > 2. Analisar o efeito de raios cósmicos [4][5] sobre campo elétrico atmosférico, empregando dados de detectores de raios cósmicos CARPET de CASLEO, como sugere [1], incluindo dados de outras estações disponíveis. Particularmente parece ser de interesse entender o tempo de impacto desses fenômenos sobre o CEA. Sugere-se, aqui, também empregar dados da rede GLOCAEM.
 
