@@ -113,7 +113,7 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 
 <img src="https://github.com/Rogerio-mack/craam/blob/main/figures/Carnegie.png?raw=true" width=300, align="right"> 
 
-## 2. **Análises do Campo Elétrico Atmosférico**
+## 3. **Análises do Campo Elétrico Atmosférico**
 
 <br>
 
