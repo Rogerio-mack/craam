@@ -14,13 +14,15 @@
 
 
 *Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno 
-dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
+dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
 
 **Dúvidas e Pontos Relevantes**
 
 * Dados. Modelo 1: Preditores [VLF SAVENET], Objetivo [Explosões Solares]; Modelo 2: Preditores[VLF de outras redes], Objetivo [Explosões Solares]; Modelo 3: Preditores [VLF + Dados como fase solar +/ou Período do Dia], Objetivo [Explosões Solares]
 
 * Alguma métrica das explosões solares (por exemplo as classes A, B, C, M, X) ou apenas identificar sua ocorrência?
+
+* Existem outras fontes/redes de dados VLF disponíveis?
 
 * Empregar dados de fase, amplitude ou ambos?
 
@@ -57,6 +59,10 @@ dos sinais [2], fase do ciclo solar [3], variações no campo magnético [4], al
 [9] Goodfellow, I., Bengio, Y., & Courville, A (2016). Deep Learning. MIT Press. Also available online: http://www.deeplearningbook.org.
 
 [10] Raulin, J.P., David, P., Hadano, R., Saraiva, A.C., Correia, E., & Kaufmann, P. (2009). The south America VLF NETwork (SAVNET): Development, installation status, first results. Geofisica Internacional, 48, 253-261.
+
+[11] Macoleta, E.L., (2015) Contribuição ao estudo de distúrbios ionosféricos utilizando a técnica de VLF. Dissertação (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/1301
+
+
 <br>
 
 <br>
@@ -177,3 +183,52 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 [5] Mendonça, R.C., Raulin, J., Bertoni, F.C., Echer, E., Makhmutov, V.S., & Fernandez, G.D. (2011). Estudo em múltiplas escalas temporais da intensidade de raios cósmicos medida na superfície terrestre.
 
+<br>
+
+<br>
+
+<img src="https://github.com/Rogerio-mack/craam/blob/main/figures/EarthquakeVLF.png?raw=true" width=300, align="right"> 
+
+## 4. **Análise das Variações de Fase nas Ondas de VLF nos Períodos que Precedem Terromotos**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+*Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno 
+dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
+
+**Dúvidas e Pontos Relevantes**
+
+* Dados. Modelo 1: Preditores [VLF SAVENET], Objetivo [Explosões Solares]; Modelo 2: Preditores[VLF de outras redes], Objetivo [Explosões Solares]; Modelo 3: Preditores [VLF + Dados como fase solar +/ou Período do Dia], Objetivo [Explosões Solares]
+
+* Alguma métrica das explosões solares (por exemplo as classes A, B, C, M, X) ou apenas identificar sua ocorrência?
+
+* Existem outras fontes/redes de dados VLF disponíveis?
+
+* Empregar dados de fase, amplitude ou ambos?
+
+* Potenciais modelos de rede: LSTM, convolucionais, modelos para detecção de anomalia.
+
+* Relevância. Identificação em tempo real seria *i.* viável e *ii.* relevante neste caso?
+
+* Verificar. Faz sentido disponibilizar um repositório com acesso mais facilitado aos pesquisadores do CRAAM ou com acesso público?
+
+* \*Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
+
+* \*Emprego de modelo multimodal com imagens?
+
+* \*Medidas do passado podem ter de ser corrigidas por uso corrente quando consideramos, por exemplo, variações no campo magnético da terra? [Pavón-Carrasco, F.J., Marsal, S., Campuzano, S.A., & Torta, J.M. (2021). Signs of a new geomagnetic jerk between 2019 and 2020 from Swarm and observatory data. Earth, Planets and Space, 73, 1-11.]. Isso teria algum valor? 
+
+**Potenciais Referências**
+
+[1] Macoleta, E.L., (2015) Contribuição ao estudo de distúrbios ionosféricos utilizando a técnica de VLF. Dissertação (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/1301
+
+[2] Grant, R.A., Raulin, J.P., & Freund, F. (2013). Camera trap records of animal activity prior to a M=7 earthquake in Northern Peru.
+
+[3] Hayakawa, M., Raulin, J.P., Kasahara, Y., Bertoni, F.C., Hobara, Y., & Guevara-Day, W. (2011). Ionospheric perturbations in possible association with the 2010 Haiti earthquake, as based on medium-distance subionospheric VLF propagation data. Natural Hazards and Earth System Sciences, 11, 513-518.
