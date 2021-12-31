@@ -138,7 +138,7 @@ Este estudo se propõe a explorar alguns caminhos apontados nessas análises pre
 
 > 2. Analisar o efeito de raios cósmicos [4][5] sobre campo elétrico atmosférico, empregando dados de detectores de raios cósmicos CARPET de CASLEO, como sugere [1], incluindo dados de outras estações disponíveis. Particularmente parece ser de interesse entender o tempo de impacto desses fenômenos sobre o CEA. Sugere-se, aqui, também empregar dados da rede GLOCAEM.
 
-> 3. Analisar as relações de processos meteorológicos (raios, tempestades etc.) e de poluição por aerossol com variações sobre campo elétrico atmosférico. Seria útil empregar a  medida do CEA como indicador de poluição como sugere [1]? Seria possível e útil empregar esses dados para algum tipo de predição de fenômenos meteorológicos? Sugere-se, aqui, também empregar dados da rede GLOCAEM que, ao que parece, incluem dados meteorológicos.
+> 3. Analisar as relações de processos meteorológicos (raios, tempestades etc.) e de poluição por aerossol com variações sobre campo elétrico atmosférico. Seria útil empregar a  medida do CEA como indicador de poluição como sugere [1]? Seria possível e útil empregar esses dados para algum tipo de predição de fenômenos meteorológicos? Sugere-se, aqui, também empregar dados da rede GLOCAEM que, ao que parece, incluem dados meteorológicos.*
 
 **Dúvidas e Pontos Relevantes**
 
@@ -149,7 +149,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 > * Entender a relevância de correção dos dados dos detectores EFM. Não estando instalados no nível do solo precisam ter o valor corrigido. Entretanto, isso foi feito em [1][2] para apenas algumas estações, para outras não. Essa correção seria então tão relevante? 
 
-> * Entender várias periodicidades identificadas ou citadas em [1]. Ciclos de 11 anos foram identificados no caso de manchas solares, e nos dados do campo magnético polar do Sol ciclos de 22 anos. Esses ciclos foram identificados nos dados de entrada? Há açgum fenômeno com período de 27 dias? Existem estudos, por exemplo de análise espectral que confirmam esses ciclos observados?
+> * Entender várias periodicidades identificadas ou citadas em [1]. Ciclos de 11 anos foram identificados no caso de manchas solares, e nos dados do campo magnético polar do Sol ciclos de 22 anos. Esses ciclos foram identificados nos dados de entrada? Há algum fenômeno com período de 27 dias? Existem estudos, por exemplo de análise espectral que confirmam esses ciclos observados?
 
 > * O que são o decréscimo Forbush e "Austausch" process? 
 
@@ -200,35 +200,42 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 <br>
 
 
-*Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno 
-dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
+*Um série de fenômenos físicos transientes que alteram a condutividade da baixa ionosfera o que provoca variações da fase e amplitude de sinais de muito baixa frequência (VLF) [1]. Dentre esses fenômenos encontram-se o ciclo diurno, fases do ciclo solar, variações no campo magnético, condições atmosféricas [2][3][4] mas também fenômenos sísmicos [1][5][6]. Este estudo, a exemplo dos trabalhos anteriores de Macoleta (2015) [1], Grant (2013) [5] e  Hayakawa (2011) [6], busca investigar as relações das variações de fase de sinais VLF com base em eventos sísmicos mais recentes sendo a técnica relevante para predição desses eventos.* 
 
 **Dúvidas e Pontos Relevantes**
 
-* Dados. Modelo 1: Preditores [VLF SAVENET], Objetivo [Explosões Solares]; Modelo 2: Preditores[VLF de outras redes], Objetivo [Explosões Solares]; Modelo 3: Preditores [VLF + Dados como fase solar +/ou Período do Dia], Objetivo [Explosões Solares]
+* Parece relevante empregar dados de terremotos mais recentes uma vez que os estudos anteriores tratam somente eventos de 2015 para trás e outros eventos como erupções parecem ter potencial de serem explorados.
 
-* Alguma métrica das explosões solares (por exemplo as classes A, B, C, M, X) ou apenas identificar sua ocorrência?
+* Pontos a entender no estudo de Macoleta (2015) [1]:
+
+> * Por que se foram selecionados somente eventos com Richter 7 ou superior e por que, aparentemente, foram analisados somente 2 eventos.
+
+> * Um ponto importante: O estudo alerta para necessidade de verificar variações dos sinais fora da janela de eventos sísmicos. 
+
+> * Entender melhor o problema a necessidade de "aprimorar um método de normalização independente da órbita de de propagação", e este pode ser um resultado a ser buscado no estudo até em substituição ao objetivo principal.
+
+> * Como em outros trabalhos [1] também emprega a transformada wavelet de Morlet que precisa ser melhor compreendida aqui.
+
+* Importante buscar as relações entre o período e a intensidade da variação de fase, e a intensidade do evento sísmico, isto é, qual o tempo que a variação antecede o terromoto a depender de sua intensidade? 
+
+* Potencialmente importante é verificar a diferença de efeito de fase em estações receptoras à diferentes distâncias do epicentro.
 
 * Existem outras fontes/redes de dados VLF disponíveis?
-
-* Empregar dados de fase, amplitude ou ambos?
-
-* Potenciais modelos de rede: LSTM, convolucionais, modelos para detecção de anomalia.
-
-* Relevância. Identificação em tempo real seria *i.* viável e *ii.* relevante neste caso?
 
 * Verificar. Faz sentido disponibilizar um repositório com acesso mais facilitado aos pesquisadores do CRAAM ou com acesso público?
 
 * \*Existe um modelo matemático, um conjunto de equações ou mesmo variáveis que possam ser empregados para análise de fatores?
 
-* \*Emprego de modelo multimodal com imagens?
-
-* \*Medidas do passado podem ter de ser corrigidas por uso corrente quando consideramos, por exemplo, variações no campo magnético da terra? [Pavón-Carrasco, F.J., Marsal, S., Campuzano, S.A., & Torta, J.M. (2021). Signs of a new geomagnetic jerk between 2019 and 2020 from Swarm and observatory data. Earth, Planets and Space, 73, 1-11.]. Isso teria algum valor? 
-
 **Potenciais Referências**
 
 [1] Macoleta, E.L., (2015) Contribuição ao estudo de distúrbios ionosféricos utilizando a técnica de VLF. Dissertação (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/1301
 
-[2] Grant, R.A., Raulin, J.P., & Freund, F. (2013). Camera trap records of animal activity prior to a M=7 earthquake in Northern Peru.
+[2] Raulin, J.P. (2011). The South America VLF Network (SAVNET): Providing new ground-based diagnostics of space weather conditions. 2011 XXXth URSI General Assembly and Scientific Symposium, 1-4.
 
-[3] Hayakawa, M., Raulin, J.P., Kasahara, Y., Bertoni, F.C., Hobara, Y., & Guevara-Day, W. (2011). Ionospheric perturbations in possible association with the 2010 Haiti earthquake, as based on medium-distance subionospheric VLF propagation data. Natural Hazards and Earth System Sciences, 11, 513-518.
+[3] Crombie, D.D. (1964). Periodic fading of VLF signals received over long paths during sunrise and sunset. Journal of Research of the National Bureau of Standards, Section D: Radio Science, 27.
+
+[4] Pacini, A.A., & Raulin, J.P. (2006). Solar X-ray flares and ionospheric sudden phase anomalies relationship : A solar cycle phase dependence. Journal of Geophysical Research, 111.
+
+[5] Grant, R.A., Raulin, J.P., & Freund, F. (2013). Camera trap records of animal activity prior to a M=7 earthquake in Northern Peru.
+
+[6] Hayakawa, M., Raulin, J.P., Kasahara, Y., Bertoni, F.C., Hobara, Y., & Guevara-Day, W. (2011). Ionospheric perturbations in possible association with the 2010 Haiti earthquake, as based on medium-distance subionospheric VLF propagation data. Natural Hazards and Earth System Sciences, 11, 513-518.
