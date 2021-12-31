@@ -220,6 +220,8 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 * Potencialmente importante é verificar a diferença de efeito de fase em estações receptoras à diferentes distâncias do epicentro.
 
+* Verificar na base de dados https://earthquake.usgs.gov/earthquakes/search/ scripts disponíveis para extração dos dados.
+
 * Existem outras fontes/redes de dados VLF disponíveis?
 
 * Verificar. Faz sentido disponibilizar um repositório com acesso mais facilitado aos pesquisadores do CRAAM ou com acesso público?
@@ -239,3 +241,8 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 [5] Grant, R.A., Raulin, J.P., & Freund, F. (2013). Camera trap records of animal activity prior to a M=7 earthquake in Northern Peru.
 
 [6] Hayakawa, M., Raulin, J.P., Kasahara, Y., Bertoni, F.C., Hobara, Y., & Guevara-Day, W. (2011). Ionospheric perturbations in possible association with the 2010 Haiti earthquake, as based on medium-distance subionospheric VLF propagation data. Natural Hazards and Earth System Sciences, 11, 513-518.
+
+**Bases de Dados**
+
+[1] Base de Dados:  https://earthquake.usgs.gov/earthquakes/search/
+
