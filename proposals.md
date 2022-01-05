@@ -200,7 +200,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 <br>
 
 
-*Um série de fenômenos físicos transientes que alteram a condutividade da baixa ionosfera o que provoca variações da fase e amplitude de sinais de muito baixa frequência (VLF) [1]. Dentre esses fenômenos encontram-se o ciclo diurno, fases do ciclo solar, variações no campo magnético, condições atmosféricas [2][3][4] mas também fenômenos sísmicos [1][5][6]. Este estudo, a exemplo dos trabalhos anteriores de Macoleta (2015) [1], Grant (2013) [5] e  Hayakawa (2011) [6], busca investigar as relações das variações de fase de sinais VLF com base em eventos sísmicos mais recentes sendo a técnica relevante para predição desses eventos.* 
+*Uma série de fenômenos físicos transientes que alteram a condutividade da baixa ionosfera o que provoca variações da fase e amplitude de sinais de muito baixa frequência (VLF) [1]. Dentre esses fenômenos encontram-se o ciclo diurno, fases do ciclo solar, variações no campo magnético, condições atmosféricas [2][3][4] mas também fenômenos sísmicos [1][5][6]. Este estudo, a exemplo dos trabalhos anteriores de Macoleta (2015) [1], Grant (2013) [5] e  Hayakawa (2011) [6], busca investigar as relações das variações de fase de sinais VLF com base em eventos sísmicos mais recentes sendo a técnica relevante para predição desses eventos.* 
 
 **Dúvidas e Pontos Relevantes**
 
@@ -245,4 +245,72 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 **Bases de Dados**
 
 [1] Base de Dados:  https://earthquake.usgs.gov/earthquakes/search/
+
+<br>
+
+<br>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SST_with_open_radome.jpg/450px-SST_with_open_radome.jpg" width=300, align="right"> 
+
+## 4. **Exploração de dados de Ondas Sub-milimétricas**
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+
+*As observações dos comprimentos de onda sub-milimétricos são importantes porque nos permitem estudar diversos objetos astrofísicos com o sol, planetas, região do centro da galáxia, nuvens moleculares etc. e permitem compreender melhor os processos físicos envolvidos [1]. Vários estudos têm sido feitos empregando ondas sub-milimétricos para análise de explosões solares buscando explicar os fenômenos que envolvem as partículas solares [2][3] havendo várias questões que ainda permanecem em aberto [4]. Este estudo, a exploração dos dados de Ondas Sub-milimétricas, apresenta potencialmente 2 frentes de trabalho:*
+
+> *1. Em Espinoza (2022) [1] são analisdados diversos aspectos a influência da opacidade atmosférica sobre os sinais de ondas sub-milimétricos. Nesta frente a ideia é aplicar um método, baseado em [1], para 'corrigir' a influência da opacidade nos sinais e recuperar a verdadeira temperatura de brilho da fonte em eventos de explosões solares e outros (a definir quais).*
+
+> *2. Seguindo [3][4], parece ser de interesse analisar a ocorrência de diferentes comprimentos de onda em fenômenos astrofísicos. Aqui pode-se explorar eventos de explosões solares empregando faixas específicas de onda ou ainda outros fenômenos.*
+
+**Dúvidas e Pontos Relevantes**
+
+* Pontos a entender no estudo de Espinoza (2022) [1]:
+
+> * O trabalho mostra em diversos aspectos a influência da opacidade atmosférica. Mas realmente propõe um método prático para 'corrigir' essa influência da opacidade nos sinais e recuperar a verdadeira temperatura de brilho da fonte? A primeira frente proposta se baseia de que há aqui um método prático a ser aplicado.
+
+> * A confirmar, mas não parece fazer sentido, ou mesmo útil, explorar outras possíveis fontes de atenuação ou perturbação das ondas sub-milimétricas, como a poluição.
+
+* Dúvidas gerais sobre ondas sub-milimétricas:
+
+> * Segundo [List of solar telescopes](https://en.wikipedia.org/wiki/List_of_solar_telescopes#cite_note-31) o telescópio SST de CASLEO é o único atualmente em operação. O CSO (Caltech Submillimeter Observatory) aparentemente foi decomissionado. Isso reflete uma retração de análises a partir de ondas sub-milimétricas por outros tipos de análise? Que aspectos só poderiam ser explorados por esse tipo de onda.
+
+> * Existem vários outros rádio telescópios. O Atacama Large Millimeter/submillimeter Array (ALMA), aparentemente pode capturar 'imagens' (ondas?) entre  0.4 mm to 3 mm. Não é claro, entretanto, a diferença do radio telescópio de CASLEO para esses outros rádios telescópios. Por exemplo o ALMA opera com várias antenas e não é claro se ondas entre 0.4 mm to 3 mm são ondas submilimétricas ou não (em [4], *solar
+flares at submillimeter wavelengths, defined here as observing wavelengths shorter
+than 3 mm (frequencies higher than 0.1 THz)*).
+
+* De [4], *We generally
+have lacked systematic observations in the millimeter-wave to far-infrared range that
+are needed to complete our picture of these events, and encourage observations with
+new facilities.* Não é claro a diferença entre ondas submilimétricas e miliméticas e quais de fato carecem observações. Aparentemente, também, o surgimento dessas ondas é um fenômeno ainda pouco entendido.
+
+* O estudo de Trottet, G. (2015) [3] parece explorar um evento específico (SOL2012-03-13) em vários comprimentos de onda. Todos parecem concordar com variações correlacionadas ao evento da explosão solar. Aparentemente, então, quaisquer comprimentos de onda podem ser empregados para 'detectar' o evento. Qual deveria ser então empregado? A análise dos  diferentes comprimentos de onda permitiriam tirar que potencias conclusões? Em princípio, essas análises permitem tirar conclusões sobre que fenômenos físicos no sol dão origem a esses diferentes comprimentos de onda exigindo um conhecimento bastante profundo da física solar e suas partículas.
+
+* Temos acesso a dados de outros rádio telescópios como o ALMA por exemplo? 
+
+* Verificar. Faz sentido disponibilizar um repositório com acesso mais facilitado aos pesquisadores do CRAAM ou com acesso público?
+
+* Os dados do rádio telescópio poderiam ser empregados para produzir 'imagens' úteis do sol?
+
+**Potenciais Referências**
+
+[1] Espinoza, D.V.C. (2022) Opacidade Atmosférica em Ondas Sub-milimétricas: O papel do Conteúdo de vapor de água (PWV). Tese (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso (provisório) em: https://github.com/Rogerio-mack/craam/blob/main/articles/Tese_DeysiCornejo%20(1).pdf
+
+[2] Giménez de Castro, C.G., Raulin, J.P., Valle Silva, J.F., Simões, P.J., Kudaka, A.S., & Valio, A. (2018). The 6 September 2017 X9 Super Flare Observed From Submillimeter to Mid‐IR. Space Weather.
+
+[3] Trottet, G., Raulin, J.P., MacKinnon, A.L., Giménez de Castro, G., Simões, P.J., Cabezas, D.P., Luz, V.D., Luoni, M.L., & Kaufmann, P. (2015). Origin of the 30 THz Emission Detected During the Solar Flare on 2012 March 13 at 17:20 UT. Solar Physics, 290, 2809-2826.
+
+[4] Krucker, S., Giménez de Castro, C.G., Hudson, H.S., Trottet, G., Bastian, T.S., Hales, A.S., Kašparová, J., Klein, K.-., Kretzschmar, M., Lüthi, T., MacKinnon, A.L., Pohjolainen, S., & White, S.D. (2013). Solar flares at submillimeter wavelengths. The Astronomy and Astrophysics Review, 21, 1-45.
+
+**Bases de Dados**
+
+[1] AERONET:  https://aeronet.gsfc.nasa.gov/
+
+[2] CASLEO: https://casleo.conicet.gov.ar/ (open?)
 
