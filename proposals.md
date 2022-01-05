@@ -250,9 +250,9 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SST_with_open_radome.jpg/450px-SST_with_open_radome.jpg" width=300, align="right"> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SST_with_open_radome.jpg/450px-SST_with_open_radome.jpg" width=250, align="right"> 
 
-## 4. **Exploração de dados de Ondas Sub-milimétricas**
+## 4. **Exploração de dados de Ondas Sub-milimétricas em  Fenômenos Astrofísicos**
 
 <br>
 
