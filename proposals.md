@@ -62,6 +62,13 @@ dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4]
 
 [11] Macoleta, E.L., (2015) Contribuição ao estudo de distúrbios ionosféricos utilizando a técnica de VLF. Dissertação (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/1301
 
+**Bases de Dados**
+
+[1] SAVNET:  (?)
+
+[2] NOAA: https://www.ngdc.noaa.gov/stp/spaceweather.html
+
+[3] AERONET:  https://aeronet.gsfc.nasa.gov/
 
 <br>
 
@@ -112,6 +119,17 @@ dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4]
 
 [6] Goodfellow, I., Bengio, Y., & Courville, A (2016). Deep Learning. MIT Press. Also available online: http://www.deeplearningbook.org.
 
+**Bases de Dados**
+
+[1] SAVNET:  (?)
+
+[2] International Earth Rotation and Reference Systems Service (IERS): https://www.iers.org/IERS/EN/Home/home_node.html
+
+[3] Sunspot index and Long-term Solar Observations: https://wwwbis.sidc.be/silso/
+
+[4] The Wilcox Solar Observatory: http://wso.stanford.edu/
+
+[5] Data from [2]: (non-relational database available?)
 
 <br>
 
@@ -244,7 +262,11 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 **Bases de Dados**
 
-[1] Base de Dados:  https://earthquake.usgs.gov/earthquakes/search/
+[1] SAVNET:  (?)
+
+[2] Sunspot index and Long-term Solar Observations: https://wwwbis.sidc.be/silso/
+
+[3] Base de Dados:  https://earthquake.usgs.gov/earthquakes/search/
 
 <br>
 
@@ -313,4 +335,6 @@ new facilities.* Não é claro a diferença entre ondas submilimétricas e milim
 [1] AERONET:  https://aeronet.gsfc.nasa.gov/
 
 [2] CASLEO: https://casleo.conicet.gov.ar/ (open?)
+
+[3] NOAA: https://www.ngdc.noaa.gov/stp/spaceweather.html
 
