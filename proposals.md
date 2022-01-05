@@ -38,7 +38,7 @@ Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discu
 
 *Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
 
-**Referências**
+### **Referências**
 
 [1] Raulin, J.P. (2011). The South America VLF Network (SAVNET): Providing new ground-based diagnostics of space weather conditions. 2011 XXXth URSI General Assembly and Scientific Symposium, 1-4.
 
@@ -62,7 +62,7 @@ Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discu
 
 [11] Macoleta, E.L., (2015) Contribuição ao estudo de distúrbios ionosféricos utilizando a técnica de VLF. Dissertação (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/1301
 
-**Fontes de Dados**
+### **Fontes de Dados**
 
 [1] SAVNET: (?)
 
@@ -71,7 +71,7 @@ Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discu
 [3] AERONET:  https://aeronet.gsfc.nasa.gov/
 
 
-**Dúvidas e Pontos Relevantes**
+### **Dúvidas e Pontos Relevantes**
 
 * Modelos diferentes podem ser explorados empregando diferentes variáveis preditoras, desde VLF SAVENET, VLF de outras redes, Dados como fase solar +/ou Período do Dia.
 
@@ -115,7 +115,7 @@ Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discu
 
 *Uma série de fatores influenciam a duração do dia (LOD) ou o tempo de rotação da terra como desde os fluidos dentro do planeta, a redistribuição de massa e os movimentos que ocorrem na atmosfera e nos oceanos, como marés, glaciais e terremotos [1]. Variações nesse tempo são imperceptíveis na superfície da terra e para nosso dia-a-dia, mas causam mudanças nos parâmetros de orientação da Terra (EOP) podendo, assim, afetar de modo significativo medidas de geolocalização (GPS) [2]. Sua medida pode ser feita a partir de técnicas de interferometria de linha de base muito longa (VLBI), como um indicador dos erros nos parâmetros EOP [3], sendo de interesse a predição de seus valores para janelas da ordem de dias ou meses [2]. Diversos métodos regressivos e inteligência artificial têm sido empregados para a predição do LOD [2] [4] [5] e comparados [2]. Liao et. al. [5] emprega um modelo neural simples MLP de 3 camadas para predição, mas não há, até o momento, um comparativo com a predição com modelos mais recentes de redes neurais profundas que podem incorporar o tempo (LSTM), recorrência ou convoluções e podem ser adequados para análise de dados complexos e multimodais [6]. Este estudo se propõe a avaliar o uso de diferentes modelos de redes neurais profundas para predição do LOD comparando-os com os modelos atuais de predição. Também buscará estimar o tempo dos ciclos de LOD (ciclos de 27 dias e 22 anos foram encontrados nos dados LOD [2]).*
 
-**Referências**
+### **Referências**
 
 [1] Lambeck, K. (1980). Changes in length-of-day and atmospheric circulation. Nature, 286(5769), 104–105. doi:10.1038/286104a0.
 
@@ -129,7 +129,7 @@ Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discu
 
 [6] Goodfellow, I., Bengio, Y., & Courville, A (2016). Deep Learning. MIT Press. Also available online: http://www.deeplearningbook.org.
 
-**Fontes de Dados**
+### **Fontes de Dados**
 
 [1] SAVNET:  (?)
 
@@ -141,7 +141,7 @@ Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discu
 
 [5] Data from [2]: (non-relational database available?)
 
-**Dúvidas e Pontos Relevantes**
+### **Dúvidas e Pontos Relevantes**
 
 * Os ciclos de 27 dias e 22 anos que foram encontrados nos dados LOD [2] apresentam alguma relação com que fenômenos conhecidos que podemos explorar?
 
@@ -185,7 +185,7 @@ Este estudo se propõe a explorar alguns caminhos apontados nessas análises pre
 
 > *3. Analisar as relações de processos meteorológicos (raios, tempestades etc.) e de poluição por aerossol com variações sobre campo elétrico atmosférico. Seria útil empregar a  medida do CEA como indicador de poluição como sugere [1]? Seria possível e útil empregar esses dados para algum tipo de predição de fenômenos meteorológicos? Sugere-se, aqui, também empregar dados da rede GLOCAEM que, ao que parece, incluem dados meteorológicos.*
 
-**Referências**
+### **Referências**
 
 [1] Tacza, J., (2019) Análise da variabilidade do campo elétrico atmosférico durante tempo bom e distúrbios geofísicos. Tese (Doutorado em Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/3835
 
@@ -197,7 +197,7 @@ Este estudo se propõe a explorar alguns caminhos apontados nessas análises pre
 
 [5] Mendonça, R.C., Raulin, J., Bertoni, F.C., Echer, E., Makhmutov, V.S., & Fernandez, G.D. (2011). Estudo em múltiplas escalas temporais da intensidade de raios cósmicos medida na superfície terrestre.
 
-**Fontes de Dados**
+### **Fontes de Dados**
 
 [1] AFINSA: (?)
 
@@ -209,7 +209,7 @@ Este estudo se propõe a explorar alguns caminhos apontados nessas análises pre
 
 [4] GLObal Coordination of Atmospheric Electricity Measurements: https://glocaem.wordpress.com/ (open?)
 
-**Dúvidas e Pontos Relevantes**
+### **Dúvidas e Pontos Relevantes**
 
 * Pontos a serem melhor entendidos nos trabalhos precedentes (em particular [1], [2] e [3]):
 
@@ -263,7 +263,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 *Uma série de fenômenos físicos transientes que alteram a condutividade da baixa ionosfera o que provoca variações da fase e amplitude de sinais de muito baixa frequência (VLF) [1]. Dentre esses fenômenos encontram-se o ciclo diurno, fases do ciclo solar, variações no campo magnético, condições atmosféricas [2][3][4] mas também fenômenos sísmicos [1][5][6]. Este estudo, a exemplo dos trabalhos anteriores de Macoleta (2015) [1], Grant (2013) [5] e  Hayakawa (2011) [6], busca investigar as relações das variações de fase de sinais VLF com base em eventos sísmicos mais recentes sendo a técnica relevante para predição desses eventos.* 
 
-**Referências**
+### **Referências**
 
 [1] Macoleta, E.L., (2015) Contribuição ao estudo de distúrbios ionosféricos utilizando a técnica de VLF. Dissertação (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso em: http://tede.mackenzie.br/jspui/handle/tede/1301
 
@@ -277,7 +277,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 [6] Hayakawa, M., Raulin, J.P., Kasahara, Y., Bertoni, F.C., Hobara, Y., & Guevara-Day, W. (2011). Ionospheric perturbations in possible association with the 2010 Haiti earthquake, as based on medium-distance subionospheric VLF propagation data. Natural Hazards and Earth System Sciences, 11, 513-518.
 
-**Fontes de Dados**
+### **Fontes de Dados**
 
 [1] SAVNET:  (?)
 
@@ -285,7 +285,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 [3] Base de Dados:  https://earthquake.usgs.gov/earthquakes/search/
 
-**Dúvidas e Pontos Relevantes**
+### **Dúvidas e Pontos Relevantes**
 
 * Parece relevante empregar dados de terremotos mais recentes uma vez que os estudos anteriores tratam somente eventos de 2015 para trás e outros eventos como erupções parecem ter potencial de serem explorados.
 
@@ -339,7 +339,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 > *2. Seguindo [3][4], parece ser de interesse analisar a ocorrência de diferentes comprimentos de onda em fenômenos astrofísicos. Aqui pode-se explorar eventos de explosões solares empregando faixas específicas de onda ou ainda outros fenômenos.*
 
 
-**Referências**
+### **Referências**
 
 [1] Espinoza, D.V.C. (2022) Opacidade Atmosférica em Ondas Sub-milimétricas: O papel do Conteúdo de vapor de água (PWV). Tese (Programa de Ciências e Aplicaçőes Geoespaciais) - Universidade Presbiteriana Mackenzie, São Paulo. Orientador: Jean-Pierre Raulin. Acesso (provisório) em: https://github.com/Rogerio-mack/craam/blob/main/articles/Tese_DeysiCornejo%20(1).pdf
 
@@ -349,7 +349,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 [4] Krucker, S., Giménez de Castro, C.G., Hudson, H.S., Trottet, G., Bastian, T.S., Hales, A.S., Kašparová, J., Klein, K.-., Kretzschmar, M., Lüthi, T., MacKinnon, A.L., Pohjolainen, S., & White, S.D. (2013). Solar flares at submillimeter wavelengths. The Astronomy and Astrophysics Review, 21, 1-45.
 
-**Fontes de Dados**
+### **Fontes de Dados**
 
 [1] AERONET:  https://aeronet.gsfc.nasa.gov/
 
@@ -358,7 +358,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 [3] NOAA: https://www.ngdc.noaa.gov/stp/spaceweather.html
 
 
-**Dúvidas e Pontos Relevantes**
+### **Dúvidas e Pontos Relevantes**
 
 * Pontos a entender no estudo de Espinoza (2022) [1]:
 
