@@ -1,9 +1,30 @@
+<a name="top"></a>
 # Potenciais Propostas de Trabalho
 
+Seguem aqui algumas propostas iniciais de trabalho com dados do CRAAM para discusão.
+
+1. [Identificação de Explosões Solares a partir de sinais VLF com Redes Neurais Profundas](#p1)
+
+2. [Um Comparativo da Predição do LOD (Lenght Of the Day) com Redes LSTM e outros Métodos](#p2)
+
+3. [Análises do Campo Elétrico Atmosférico](#p3)
+
+4. [Exploração de dados de Ondas Sub-milimétricas em  Fenômenos Astrofísicos](#p4)
+
+<br>
+
+<br>
+
+---
+
+<br>
+
+<a name="p1"></a>
 <img src="https://www.researchgate.net/profile/Jean-Pierre-Raulin/publication/224263574/figure/fig1/AS:302875856130048@1449222639469/Examples-of-VLF-propagation-paths-from-transmitters-triangles-NAA-NDK-NPM-and-NWC-to_W640.jpg" width=300, align="right"> 
 
 ## 1. **Identificação de Explosões Solares a partir de sinais VLF com Redes Neurais Profundas**
 
+[Back to the top](#top)
 <br>
 
 <br>
@@ -13,8 +34,7 @@
 <br>
 
 
-*Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno 
-dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
+*Sinais de VLF podem ser empregados para a detecção de explosões solares [1]. Os sinais de VLF, entretanto, são afetados por uma série de fatores, como período diurno ou noturno dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4], além do clima, condições atmosféricas etc. Por outro lado, redes profundas são conhecidas pela capacidade de lidar com grandes volumes de dados complexos e mais recentemente vêm sendo aplicados à pesquisa de explosões solares [5] e mesmo ao tratamento direto de sinais VLF [6] [7] [8]. Este estudo se propõe a avaliar o uso de modelos de redes neurais profundas [9] para identificar explosões solares a partir de dados de VLF coletados na SAVNET [10].*
 
 **Dúvidas e Pontos Relevantes**
 
@@ -74,10 +94,12 @@ dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4]
 
 <br>
 
+<a name="p2"></a>
 <img src="https://github.com/Rogerio-mack/craam/blob/main/figures/Lambek1980Nature.png?raw=true" width=300, align="right"> 
 
 ## 2. **Um Comparativo da Predição do LOD (Lenght Of the Day) com Redes LSTM e outros Métodos**
 
+[Back to the top](#top)
 <br>
 
 <br>
@@ -135,10 +157,12 @@ dos sinais [2][11], fase do ciclo solar [3], variações no campo magnético [4]
 
 <br>
 
+<a name="p3"></a>
 <img src="https://github.com/Rogerio-mack/craam/blob/main/figures/Carnegie.png?raw=true" width=300, align="right"> 
 
 ## 3. **Análises do Campo Elétrico Atmosférico**
 
+[Back to the top](#top)
 <br>
 
 <br>
@@ -205,10 +229,12 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 <br>
 
+<a name="p4"></a>
 <img src="https://github.com/Rogerio-mack/craam/blob/main/figures/EarthquakeVLF.png?raw=true" width=300, align="right"> 
 
 ## 4. **Análise das Variações de Fase nas Ondas de VLF nos Períodos que Precedem Terromotos**
 
+[Back to the top](#top)
 <br>
 
 <br>
@@ -272,6 +298,7 @@ de eliminar o ruído de fundo e acentuar possíveis efeitos de baixa amplitude d
 
 <br>
 
+<a name="p1"></a>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/SST_with_open_radome.jpg/450px-SST_with_open_radome.jpg" width=250, align="right"> 
 
 ## 4. **Exploração de dados de Ondas Sub-milimétricas em  Fenômenos Astrofísicos**
